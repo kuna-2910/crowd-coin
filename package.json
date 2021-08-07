@@ -1,0 +1,30 @@
+{
+  "name": "kickstart",
+  "version": "1.0.0",
+  "description": "This Application is a mockup of Kickstarter using Blockchain and smart contracts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "export": "npm run build && next export"
+  },
+  "author": "Naman",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "fusioncharts": "^3.17.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^6.2.3",
+    "next": "^9.5.5",
+    "next-routes": "^1.4.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-fusioncharts": "^3.1.2",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0",
+    "solc": "^0.8.6",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.27"
+  }
+}
